@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Image</title>
+    <style>
+    * {
+        margin: 2px;
+        padding: 0;
+    }
+    .container {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Gambar1 {
+        display: flex;
+        height: 17em;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .Gambar2 {
+        display: flex;
+        height: 10em;
+        width: 100%;
+        justify-content: space-between;
+    }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="Gambar1">
+            <img src="1.jpg">
+            <img src="2.jpg">
+            <img src="3.jpg">
+        </div>
+    </div>
+    <div id="container">
+        <div class="Gambar2">
+            <img src="4.jpg">
+            <img src="5.jpg">
+            <img src="6.jpg">
+            <img src="7.jpg">
+            <img src="8.jpg">
+        </div>
+    </div>
+</body>
+</html>
